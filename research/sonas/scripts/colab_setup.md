@@ -9,7 +9,7 @@ WORK = "/content/drive/MyDrive/sonas"
 
 ```python
 # Cell 2 — install the sonas-paper branch + research deps
-!git clone --branch sonas-paper --depth 1 <YOUR-FORK-URL> /content/ultralytics
+!git clone --branch sonas-paper --depth 1 https://github.com/KarimAyman97/q1.git /content/ultralytics
 %cd /content/ultralytics
 !pip install -e . -q
 !pip install -r research/sonas/requirements.txt -q
